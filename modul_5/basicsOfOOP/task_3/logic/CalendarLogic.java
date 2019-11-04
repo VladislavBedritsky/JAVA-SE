@@ -26,7 +26,7 @@ public class CalendarLogic {
         }while (q == 0);
         q = 0;
 
-        List<modul_5.basicsOfOOP.task_3.entity.Calendar> ourHolidays = table.getHolidays();
+        List<Calendar> ourHolidays = table.getHolidays();
 
         SimpleDateFormat a = new SimpleDateFormat("dd:MM:yyyy - EEEE");
         SimpleDateFormat a1 = new SimpleDateFormat("dd:MM:yyyy");
